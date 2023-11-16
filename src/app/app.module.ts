@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactModule } from './contact/contact.module';
 import { DemoModule } from './demo/demo.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { DemoModule } from './demo/demo.module';
     BrowserAnimationsModule,
     DemoModule,
     ContactModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
