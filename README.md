@@ -4,7 +4,7 @@ A simple Angular application using Angular Material to manage contacts. The app 
 
 ## Installation
    ```bash
-   git clone https://github.com/your-account/angular-contacts-app.git
+   git clone git@github.com:conradylx/Management-Dashboard.git
    cd mandash
    npm i
    ng serve -o
