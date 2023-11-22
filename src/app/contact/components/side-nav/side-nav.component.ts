@@ -13,6 +13,7 @@ import { Router } from '@angular/router';
 export class SideNavComponent implements OnInit {
   public isScreenSmall: boolean = false;
   users: Observable<User[]> = new Observable<User[]>();
+  isDarkTheme: boolean = false;
 
   constructor(
     private breakPointObserver: BreakpointObserver,
@@ -32,5 +33,9 @@ export class SideNavComponent implements OnInit {
     this.users.subscribe((data) => {
       data.length > 0 && this.router.navigate(['/contact', data[0].id]);
     });
+  }
+
+  toggleTheme() {
+    this.isDarkTheme = !this.isDarkTheme;
   }
 }
