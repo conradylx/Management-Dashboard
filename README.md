@@ -3,9 +3,6 @@
 A simple Angular application using Angular Material to manage contacts. The app allows adding new contacts and displaying the current ones.
 
 ## Installation
-
-1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-account/angular-contacts-app.git
    cd mandash
